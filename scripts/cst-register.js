@@ -7,7 +7,7 @@ const optionsDefs = [
   { name: "help", alias: "h", type: Boolean },
   { name: "network", type: String },
   { name: "registry", type: String, alias: "r" },
-  { name: "cst", type: String, alias: "c" },
+  { name: "cst", alias: "c", type: String, alias: "c" },
   { name: "data", alias: "d", type: Boolean }
 ];
 
